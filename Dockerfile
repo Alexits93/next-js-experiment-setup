@@ -14,7 +14,7 @@ RUN npm ci
 COPY . .
 
 # Define the environment variable for Next.js
-ENV NODE_ENV production
+# ENV NODE_ENV production
 
 # Build the app
 RUN npm run build
